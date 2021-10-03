@@ -1,0 +1,408 @@
+.btn-center-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.driver {
+  margin: 0rem;
+  border: #9b9cb7 1px solid;
+}
+
+/* Preloader */
+
+.preloader {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #eaebf4;
+  position: fixed;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 24px;
+  font-weight: 500;
+  opacity: 1;
+  transition: 1s;
+}
+
+.preload-hide {
+  opacity: 0;
+  z-index: 0;
+}
+
+.animation {
+  width: 380px;
+}
+
+/* Section Title */
+
+.title-content {
+  font-size: 36px;
+  font-weight: 500;
+  color: #02044a;
+}
+.title-desc {
+  font-size: 16px;
+  font-weight: 300;
+  color: #9b9cb7;
+}
+
+/* Jumbotron */
+.jumbotron {
+  margin-top: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-hero {
+  width: 500px;
+}
+
+.text-jmb {
+  color: #02044a;
+  width: 411px;
+  font-size: 46px;
+  font-weight: 500;
+}
+
+.text-desc-jmb {
+  color: #9b9cb7;
+  font-size: 18px;
+  font-weight: 300;
+  width: 411px;
+}
+
+/* Sponsor */
+
+.sponsor {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.image-sponsor {
+  height: 30px;
+  margin: 1rem;
+}
+
+.image-login {
+  width: 438px;
+  height: 336px;
+  position: absolute;
+  z-index: 1;
+  border-radius: 5px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.image-login-wraper {
+  width: 438px;
+  height: 336px;
+  border-color: #eaebf4;
+  border-width: 3px;
+  border-style: dashed;
+  position: relative;
+  top: 15px;
+  left: 15px;
+  border-radius: 5px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+/* Content Perusahaan */
+.container-content {
+  margin-top: 70px;
+}
+
+/* Popular Job */
+.popular-job {
+  padding-top: 35px;
+}
+
+.img-company {
+  width: 100%;
+  border-radius: 15px;
+  height: 180px;
+}
+
+.company-title {
+  color: #9b9cb7;
+  margin-top: 10px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.text-job {
+  font-size: 14px;
+  color: #02044a;
+  font-weight: 400;
+  margin-bottom: 0rem;
+}
+
+.text-date {
+  font-size: 12px;
+  color: #9b9cb7;
+  font-weight: 200;
+  margin-bottom: 0rem;
+}
+
+.card-hover:before {
+  background-color: rgba(0, 0, 0, 0.3);
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  opacity: 0;
+  transition: 0.5s;
+}
+.card-hover:hover:before {
+  background-image: url("./../image/eye.svg");
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+}
+
+/* Testimonial */
+.testimonial {
+  padding-top: 35px;
+}
+
+.testimonial .img-pict-testi {
+  height: 55px;
+  width: 55px;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+.testimonial .username {
+  color: #9b9cb7;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.testimonial .pekerjaan {
+  font-size: 14px;
+  color: #02044a;
+  font-weight: 400;
+}
+
+.testimonial .testi {
+  font-size: 12px;
+  color: #9b9cb7;
+  font-weight: 200;
+  margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 70px;
+}
+
+.footer .text-footer {
+  color: #9b9cb7;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.footer .footer-address {
+  color: #9b9cb7;
+  font-weight: 400;
+  margin-top: 3px;
+  font-size: 12px;
+}
+
+.footer .title-link {
+  color: #02044a;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.footer .list-item,
+a,
+a:hover {
+  text-decoration: none;
+  list-style: none;
+  color: #9b9cb7;
+  font-weight: 300;
+  margin-top: 3px;
+}
+
+.footer .copyright {
+  text-align: center;
+  color: #9b9cb7;
+  font-size: 14px;
+  font-weight: 200;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+/* Login Page */
+
+/* Form Label */
+.form-label {
+  font-size: 18px;
+  font-weight: 500;
+  color: #02044a;
+}
+
+/* Page Informasi */
+.informasi {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-informasi {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+}
+
+.text-title {
+  color: #9b9cb7;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.text-informasi {
+  color: #02044a;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.text-date {
+  color: #9b9cb7;
+  font-size: 10px;
+  font-weight: 300;
+  text-align: justify;
+  margin-top: 5px;
+}
+
+/* Details JOB */
+
+.wrapper-body {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.img-body-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-tumbnail {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  overflow: hidden;
+}
+.img-tumbnail {
+  height: 200px;
+  width: 100%;
+}
+
+.border-logo {
+  display: flex;
+  width: 110px;
+  height: 110px;
+  border-radius: 130px;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: -55px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo-img {
+  width: 90px;
+  height: 90px;
+}
+
+.btn-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.border-btn-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px dashed #9b9cb7;
+  color: #9b9cb7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+a.border-btn-icon:hover {
+  background-color: #9b9cb7;
+  border: #fff;
+  color: #fff;
+  font-size: 20px;
+}
+
+.body-company {
+  padding: 20px;
+}
+
+.company-name {
+  font-size: 16px;
+  color: #02044a;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.address-company {
+  font-size: 14px;
+  font-weight: 200;
+  text-align: center;
+  color: #9b9cb7;
+}
+
+.title-job-details {
+  font-size: 18px;
+  font-weight: 500;
+  color: #02044a;
+  padding-bottom: 8px;
+}
+
+.text-details-job,
+li {
+  font-size: 14px;
+  font-weight: 300;
+  color: #02044a;
+  text-align: justify;
+  list-style: circle;
+}
