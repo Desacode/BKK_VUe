@@ -1,9 +1,9 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
-      <a class="navbar-brand" href="#/">
+      <router-link class="navbar-brand" to="/">
         <img src="image/brand.png" width="120" alt="" />
-      </a>
+      </router-link>
       <button
         class="navbar-toggler"
         type="button"
@@ -17,11 +17,21 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
-          <a class="nav-link active" aria-current="page" href="#/">Home</a>
-          <a class="nav-link" href="#informasi">Informasi</a>
-          <a class="nav-link" href="#lowongan_pekerjaan">Lowongan pekerjaan</a>
-          <a class="nav-link" href="#bkk">BKK</a>
-          <a class="nav-link" href="#login">Login</a>
+          <router-link class="nav-link active" to="/">
+            Home
+          </router-link>
+          <router-link class="nav-link" to="/informasi">
+            Informasi
+          </router-link>
+          <router-link class="nav-link" to="/">
+            Lowongan pekerjaan
+          </router-link>
+          <router-link class="nav-link" to="/">
+            BKK
+          </router-link>
+          <router-link class="nav-link" to="/">
+            Login
+          </router-link>
         </div>
       </div>
     </div>
