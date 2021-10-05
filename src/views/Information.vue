@@ -41,7 +41,7 @@ import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
 
 export default {
-  name: "Home",
+  name: "Information",
   components: {
     Navbar,
     Footer,
