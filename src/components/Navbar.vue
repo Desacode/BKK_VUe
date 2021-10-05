@@ -23,7 +23,7 @@
           <router-link class="nav-link" to="/informasi">
             Informasi
           </router-link>
-          <router-link class="nav-link" to="/">
+          <router-link class="nav-link" to="/job">
             Lowongan pekerjaan
           </router-link>
           <router-link class="nav-link" to="/">
