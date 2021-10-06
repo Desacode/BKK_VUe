@@ -3,6 +3,7 @@ import Home from "../views/Home.vue";
 import Information from "../views/Information.vue";
 import Job from "../views/Job.vue";
 import BKK from "../views/Bkk.vue";
+import Login from "../views/login.vue";
 
 const routes = [
   {
@@ -24,6 +25,11 @@ const routes = [
     path: "/bkk",
     name: "BKK",
     component: BKK,
+  },
+  {
+    path: "/login",
+    name: "Login",
+    component: Login,
   },
 ];
 
