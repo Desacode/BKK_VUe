@@ -29,7 +29,7 @@
           <router-link class="nav-link" to="/bkk">
             BKK
           </router-link>
-          <router-link class="nav-link" to="/">
+          <router-link class="nav-link" to="/login">
             Login
           </router-link>
         </div>
